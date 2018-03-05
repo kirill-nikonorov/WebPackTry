@@ -1,0 +1,24 @@
+{
+  "name": "WebPackTry",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --mode development",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "webpack": "4.0.1",
+    "webpack-cli": "^2.0.9",
+    "webpack-dev-server": "^3.1.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "express": "^4.16.2",
+    "html-webpack-plugin": "^3.0.4",
+    "style-loader": "^0.20.2",
+    "webpack-dev-middleware": "^3.0.0",
+    "webpack-hot-middleware": "^2.21.1"
+  }
+}
