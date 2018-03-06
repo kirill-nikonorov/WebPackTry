@@ -1,9 +1,9 @@
-function component() {
-    var element = document.createElement('div');
-    element.innerHTML = ' s Hello d s d s d ';
-    return element;
-}
-document.body.appendChild(component());
+let app = document.getElementById("app");
+
+var element = document.createElement('div');
+app.innerHTML="Hello 1 22 s s"
+
+
 
 if (module.hot) {
     module.hot.accept()
